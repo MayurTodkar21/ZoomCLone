@@ -1,0 +1,120 @@
+body{
+    background-color:#e5e5e5;
+}
+section{
+    padding: 30px;
+}
+
+nav{
+    background-color: green;
+}
+img{
+    width : 50px;
+    length : 100px;
+}
+.general
+{
+    display: flex;
+    justify-content: space-around;
+    row-gap: 10px;
+    column-gap: 2em;
+    
+   
+}
+select{
+    background-color: transparent;
+    border:none;
+    color:yellow;
+}
+
+.push{
+    color:white;
+    
+}
+.general a{
+    color: white;
+}
+
+.mainBG{
+    
+    height: 590px;
+    background-image: url(img/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1
+{
+    padding-top:200px;
+    text-align: center;
+    color: hsl(135, 81%, 37%);
+}
+h2,h6
+{
+    
+    text-align: center;
+   
+}
+
+
+h5
+{
+    padding-left:50px;
+    padding-right: 50px;
+    text-align: center;
+    color: white;
+}
+h7{
+    text-align: center;
+    font-weight: 900;
+}
+.tab
+{
+    padding-left: 560px;
+}
+.row
+{
+    column-gap: 2em;
+}
+.new
+{
+    
+    background-color: gray;
+}
+.BG1{
+    margin-bottom: 100px;
+    height: 500px;
+    height: 300px;
+    background-image: url(img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BG
+{
+    
+    height: 300px;
+    background-image: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstCont
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.firstCont div{
+    width :250px;
+    height: 200px;
+    
+}
+.secondCont
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.secondCont div{
+    width :250px;
+    height: 400px;
+    
+}
